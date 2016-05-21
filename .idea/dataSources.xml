@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3407914651">
+    <data-source source="LOCAL" name="SQL Server (Microsoft) - jj@localhost" uuid="ab2ed83c-ac5a-4498-8be5-b15bd09cde64">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost\MYINSTANCE;databaseName=jj</jdbc-url>
+    </data-source>
+  </component>
+</project>

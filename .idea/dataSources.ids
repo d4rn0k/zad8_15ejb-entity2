@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="SQL Server (Microsoft) - jj@localhost" uuid="ab2ed83c-ac5a-4498-8be5-b15bd09cde64">
+    <database-info product="Microsoft SQL Server" version="10.00.5538" jdbc-version="4.0" driver-name="Microsoft JDBC Driver 4.0 for SQL Server" driver-version="4.0.2206.100">
+      <extra-name-characters>$#@</extra-name-characters>
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <database-model serializer="dbm" rdbms="MSSQL" format-version="2.5">
+      <database id="1" name="jj">
+        <object-id>8</object-id>
+        <collation>Polish_CI_AS</collation>
+      </database>
+      <schema id="2" parent="1" name="dbo">
+        <object-id>1</object-id>
+        <introspection-timestamp>2016-05-20.17:51:38.967</introspection-timestamp>
+      </schema>
+      <table id="3" parent="2" name="atable">
+        <object-id>533576939</object-id>
+        <created-timestamp>2016-05-20.17:30:52.503</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.503</modified-timestamp>
+      </table>
+      <table id="4" parent="2" name="atable_11">
+        <object-id>549576996</object-id>
+        <created-timestamp>2016-05-20.17:30:52.587</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.587</modified-timestamp>
+      </table>
+      <table id="5" parent="2" name="etable">
+        <object-id>565577053</object-id>
+        <created-timestamp>2016-05-20.17:30:52.613</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.613</modified-timestamp>
+      </table>
+      <table id="6" parent="2" name="ftable">
+        <object-id>581577110</object-id>
+        <created-timestamp>2016-05-20.17:30:52.710</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.710</modified-timestamp>
+      </table>
+      <table id="7" parent="2" name="ftable_1">
+        <object-id>597577167</object-id>
+        <created-timestamp>2016-05-20.17:30:52.767</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.767</modified-timestamp>
+      </table>
+      <table id="8" parent="2" name="ftable_3dhull">
+        <object-id>613577224</object-id>
+        <created-timestamp>2016-05-20.17:30:52.807</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.807</modified-timestamp>
+      </table>
+      <table id="9" parent="2" name="ftable_xyz">
+        <object-id>629577281</object-id>
+        <created-timestamp>2016-05-20.17:30:52.837</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.837</modified-timestamp>
+      </table>
+      <table id="10" parent="2" name="fttable">
+        <object-id>645577338</object-id>
+        <created-timestamp>2016-05-20.17:30:52.857</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.857</modified-timestamp>
+      </table>
+      <table id="11" parent="2" name="gdata">
+        <object-id>661577395</object-id>
+        <created-timestamp>2016-05-20.17:30:52.907</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.907</modified-timestamp>
+      </table>
+      <table id="12" parent="2" name="gtable_org">
+        <object-id>677577452</object-id>
+        <created-timestamp>2016-05-20.17:30:52.920</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.920</modified-timestamp>
+      </table>
+      <table id="13" parent="2" name="homeworkjournal">
+        <object-id>693577509</object-id>
+        <created-timestamp>2016-05-20.17:30:52.947</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:52.947</modified-timestamp>
+      </table>
+      <table id="14" parent="2" name="otable">
+        <object-id>709577566</object-id>
+        <created-timestamp>2016-05-20.17:30:53.063</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:53.063</modified-timestamp>
+      </table>
+      <table id="15" parent="2" name="otable_momentum">
+        <object-id>725577623</object-id>
+        <created-timestamp>2016-05-20.17:30:53.147</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:53.147</modified-timestamp>
+      </table>
+      <table id="16" parent="2" name="sysdiagrams">
+        <object-id>741577680</object-id>
+        <created-timestamp>2016-05-20.17:30:53.170</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:53.170</modified-timestamp>
+      </table>
+      <table id="17" parent="2" name="tb_customer">
+        <object-id>757577737</object-id>
+        <created-timestamp>2016-05-20.17:30:53.180</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:53.180</modified-timestamp>
+      </table>
+      <table id="18" parent="2" name="tb_insurance">
+        <object-id>773577794</object-id>
+        <created-timestamp>2016-05-20.17:30:53.193</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:53.193</modified-timestamp>
+      </table>
+      <table id="19" parent="2" name="tb_model">
+        <object-id>789577851</object-id>
+        <created-timestamp>2016-05-20.17:30:53.210</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:53.210</modified-timestamp>
+      </table>
+      <table id="20" parent="2" name="tbl_courses">
+        <object-id>805577908</object-id>
+        <created-timestamp>2016-05-20.17:30:53.220</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:53.220</modified-timestamp>
+      </table>
+      <table id="21" parent="2" name="tbl_student_course">
+        <object-id>821577965</object-id>
+        <created-timestamp>2016-05-20.17:30:53.230</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:53.230</modified-timestamp>
+      </table>
+      <table id="22" parent="2" name="tbl_students">
+        <object-id>837578022</object-id>
+        <created-timestamp>2016-05-20.17:30:53.247</created-timestamp>
+        <modified-timestamp>2016-05-20.17:30:53.247</modified-timestamp>
+      </table>
+      <column id="23" parent="3" name="i">
+        <data-type>int</data-type>
+      </column>
+      <column id="24" parent="3" name="j">
+        <data-type>int</data-type>
+      </column>
+      <column id="25" parent="3" name="a">
+        <data-type>real</data-type>
+      </column>
+      <column id="26" parent="4" name="i">
+        <data-type>int</data-type>
+      </column>
+      <column id="27" parent="4" name="j">
+        <data-type>int</data-type>
+      </column>
+      <column id="28" parent="4" name="a">
+        <data-type>real</data-type>
+      </column>
+      <column id="29" parent="5" name="id">
+        <data-type>int</data-type>
+      </column>
+      <column id="30" parent="5" name="x">
+        <data-type>real</data-type>
+      </column>
+      <column id="31" parent="5" name="y">
+        <data-type>real</data-type>
+      </column>
+      <column id="32" parent="5" name="z">
+        <data-type>real</data-type>
+      </column>
+      <column id="33" parent="5" name="r">
+        <data-type>real</data-type>
+      </column>
+      <column id="34" parent="6" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="35" parent="6" name="x">
+        <data-type>int</data-type>
+      </column>
+      <column id="36" parent="6" name="y">
+        <data-type>int</data-type>
+      </column>
+      <column id="37" parent="6" name="z">
+        <data-type>int</data-type>
+      </column>
+      <column id="38" parent="7" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="39" parent="7" name="x">
+        <data-type>real</data-type>
+      </column>
+      <column id="40" parent="7" name="y">
+        <data-type>real</data-type>
+      </column>
+      <column id="41" parent="8" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="42" parent="8" name="x">
+        <data-type>real</data-type>
+      </column>
+      <column id="43" parent="8" name="y">
+        <data-type>real</data-type>
+      </column>
+      <column id="44" parent="8" name="z">
+        <data-type>real</data-type>
+      </column>
+      <column id="45" parent="9" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="46" parent="9" name="x">
+        <data-type>int</data-type>
+      </column>
+      <column id="47" parent="9" name="y">
+        <data-type>int</data-type>
+      </column>
+      <column id="48" parent="9" name="z">
+        <data-type>int</data-type>
+      </column>
+      <column id="49" parent="10" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="50" parent="10" name="x">
+        <data-type>real</data-type>
+      </column>
+      <column id="51" parent="10" name="y">
+        <data-type>real</data-type>
+      </column>
+      <column id="52" parent="10" name="z">
+        <data-type>real</data-type>
+      </column>
+      <column id="53" parent="11" name="x">
+        <data-type>int</data-type>
+      </column>
+      <column id="54" parent="11" name="y">
+        <data-type>int</data-type>
+      </column>
+      <column id="55" parent="11" name="p">
+        <data-type>real</data-type>
+      </column>
+      <column id="56" parent="12" name="id">
+        <data-type>int</data-type>
+      </column>
+      <column id="57" parent="12" name="x">
+        <data-type>int</data-type>
+      </column>
+      <column id="58" parent="12" name="y">
+        <data-type>int</data-type>
+      </column>
+      <column id="59" parent="12" name="p">
+        <data-type>real</data-type>
+      </column>
+      <column id="60" parent="13" name="HomeworkID">
+        <data-type>int</data-type>
+      </column>
+      <column id="61" parent="13" name="Album">
+        <data-type>int</data-type>
+      </column>
+      <column id="62" parent="14" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="63" parent="14" name="x">
+        <data-type>real</data-type>
+      </column>
+      <column id="64" parent="14" name="y">
+        <data-type>real</data-type>
+      </column>
+      <column id="65" parent="14" name="z">
+        <data-type>real</data-type>
+      </column>
+      <column id="66" parent="15" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="67" parent="15" name="x">
+        <data-type>real</data-type>
+      </column>
+      <column id="68" parent="15" name="y">
+        <data-type>real</data-type>
+      </column>
+      <column id="69" parent="15" name="z">
+        <data-type>real</data-type>
+      </column>
+      <column id="70" parent="15" name="m">
+        <data-type>real</data-type>
+      </column>
+      <column id="71" parent="16" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="72" parent="16" name="principal_id">
+        <data-type>int</data-type>
+      </column>
+      <column id="73" parent="16" name="diagram_id">
+        <data-type>int</data-type>
+      </column>
+      <column id="74" parent="16" name="version">
+        <data-type>int</data-type>
+      </column>
+      <column id="75" parent="16" name="definition">
+        <data-type>varbinary</data-type>
+      </column>
+      <column id="76" parent="17" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="77" parent="17" name="firstName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="78" parent="17" name="lastName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="79" parent="18" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="80" parent="18" name="customerId">
+        <data-type>int</data-type>
+      </column>
+      <column id="81" parent="18" name="modelId">
+        <data-type>int</data-type>
+      </column>
+      <column id="82" parent="18" name="dateFrom">
+        <data-type>datetime2</data-type>
+      </column>
+      <column id="83" parent="18" name="dateTo">
+        <data-type>datetime2</data-type>
+      </column>
+      <column id="84" parent="19" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="85" parent="19" name="model">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="86" parent="20" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="87" parent="20" name="courseName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="88" parent="21" name="studentId">
+        <data-type>int</data-type>
+      </column>
+      <column id="89" parent="21" name="courseId">
+        <data-type>int</data-type>
+      </column>
+      <column id="90" parent="21" name="mark">
+        <data-type>int</data-type>
+      </column>
+      <column id="91" parent="22" name="Id">
+        <data-type>int</data-type>
+      </column>
+      <column id="92" parent="22" name="firstName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="93" parent="22" name="lastName">
+        <data-type>varchar(255)</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
