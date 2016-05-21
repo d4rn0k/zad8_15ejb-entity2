@@ -12,7 +12,7 @@ import javax.persistence.Id;
  * @version 0.7L
  */
 @Entity
-@Table(name = "tbl_courses", schema = "dbo", catalog = "jj")
+@Table(name = "tbl_courses")
 public class TblCoursesEntity {
     private int id;
     private String courseName;

@@ -64,7 +64,7 @@ class StudentCoursePK implements Serializable {
  * @version 0.7L
  */
 @Entity
-@Table(name = "tbl_student_course", schema = "dbo", catalog = "jj")
+@Table(name = "tbl_student_course")
 public class TblStudentCourseEntity {
     private int mark;
 

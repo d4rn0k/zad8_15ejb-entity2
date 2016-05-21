@@ -14,7 +14,7 @@
         <setting name="provider-name" value="" />
         <datasource-mapping>
           <factory-entry name="NewPersistenceUnit" value="75673c3b-2c4b-4513-b12d-3eed10814550" />
-          <factory-entry name="myPersistence" />
+          <factory-entry name="myPersistence" value="ab2ed83c-ac5a-4498-8be5-b15bd09cde64" />
           <factory-entry name="persistence98123" value="ab2ed83c-ac5a-4498-8be5-b15bd09cde64" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/META-INF/persistence.xml" />

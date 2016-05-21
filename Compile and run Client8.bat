@@ -1,12 +1,11 @@
-@echo on
+@echo off
 
 set GLASSFISH=C:\glassfish4\glassfish
 cd src\
 
-REM Autogenerowane ?gówno? (wcześniej javac generował dodatkowe pliki:)
-REM del TbModelEntity_.java TbCustomerEntity_.java TbInsuranceEntity_.java
-del *.class 
 
+
+copy pl\jrj\game\IGameRemote.java .
 echo KOMPILACJA:
 javac ^
 -d . ^
@@ -16,6 +15,7 @@ javac ^
 Grade.java IGameRemote.java *.java ^
 -Xlint
 
+del IGameRemote.java
 
 REM cls
 
@@ -25,5 +25,8 @@ java -classpath ^
 %GLASSFISH%\lib\javaee.jar;^
 %GLASSFISH%\lib\sqljdbc4.jar;. ^
 Grade "wejscie.txt"
+
+echo Clean
+del *.class 
 
 pause

@@ -78,7 +78,6 @@ public class Grade {
             median = getMedian(courseGradesList);
             answer = (thisStudentMark - median) / median * 100;
         } catch (Exception exception) {
-            exception.printStackTrace();
             answer = 20f;
         } finally {
             System.out.format(Locale.US, "Wynik : %d%%\n", Math.round(answer));
@@ -118,17 +117,16 @@ public class Grade {
     private static List<StudentGradeTuple> getAllGradesForCourse(
             EntityManager em) {
         Query studentsForCourse = em.createQuery("" +
-        "SELECT NEW StudentGradeTuple( s.firstName, s.lastName, sc.mark )" +
-        "FROM TblStudentCourseEntity sc " +
-        "JOIN TblCoursesEntity c ON c.id = sc.studentCourseKey.courseId " +
-        "JOIN TblStudentsEntity s ON s.id = sc.studentCourseKey.studentId " +
-        "WHERE c.courseName =:questionedCourseName " +
-        "ORDER BY sc.mark ASC ");
+                "SELECT NEW StudentGradeTuple( s.firstName, s.lastName, sc.mark )" +
+                "FROM TblStudentCourseEntity sc " +
+                "JOIN TblCoursesEntity c ON c.id = sc.studentCourseKey.courseId " +
+                "JOIN TblStudentsEntity s ON s.id = sc.studentCourseKey.studentId " +
+                "WHERE c.courseName =:questionedCourseName " +
+                "ORDER BY sc.mark ASC ");
 
         studentsForCourse.setParameter("questionedCourseName",
                 questionedCourseName);
 
-        System.out.println(questionedCourseName);
         return studentsForCourse.getResultList();
     }
 
